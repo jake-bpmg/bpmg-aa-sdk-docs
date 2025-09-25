@@ -1,0 +1,6 @@
+# Docs
+
+## Docs
+
+- [Example](/bpmg-aa-sdk-docs/example): This is an example page.
+- [Get started](/bpmg-aa-sdk-docs/getting-started): Hello world!
