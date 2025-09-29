@@ -1,3 +1,24 @@
 # Get started
 
-Hello world!
+Install package.
+
+```sh
+# TODO add registry
+pnpm add bpmg-aa-sdk
+```
+
+and import it as you wish.
+
+```ts
+import * as toolkit from "bpmg-aa-sdk";
+import { bundler, accountAbstraction } from "bpmg-aa-sdk";
+```
+
+start to call the core methods.
+
+```ts
+function myFunction() {
+  const { saltAsString } = accountAbstraction.generateSaltAsBytes32();
+  // my codes
+}
+```
