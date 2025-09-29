@@ -1,6 +1,7 @@
-# Docs
+# Bpmg AA SDK
+
+> Typescript SDK for BPMG's Account Abstraction smart wallets and bundler integration.
 
 ## Docs
 
-- [Example](/bpmg-aa-sdk-docs/example): This is an example page.
-- [Get started](/bpmg-aa-sdk-docs/getting-started): Hello world!
+- [Get started](/bpmg-aa-sdk-docs/getting-started): Install package.
