@@ -1,3 +1,3 @@
 # bpmg-aa-sdk-docs
 
-Mantra documentation with [`vocs`](https://vocs.dev/)
+bpmg-aa-sdk-docs documentation with [`vocs`](https://vocs.dev/)
