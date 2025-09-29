@@ -1,11 +1,11 @@
 {
-  "name": "bpmg-aa-sdk",
+  "name": "bpmg-aa-sdk-docs",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vocs dev",
-    "build": "vocs build",
+    "build": "vocs build && rsync -a ./docs/dist/ ./docs/",
     "preview": "vocs preview"
   },
   "dependencies": {
