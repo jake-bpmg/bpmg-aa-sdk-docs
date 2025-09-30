@@ -12,8 +12,24 @@ export default defineConfig({
       link: "/getting-started",
     },
     {
-      text: "precomputeSmartWallet",
-      link: "/precomputeSmartWallet",
+      text: "BundlerService",
+      link: "/bundlerService",
+      items: [
+        {
+          text: "precomputeSmartWallet",
+          link: "/precomputeSmartWallet",
+        },
+      ],
+    },
+    {
+      text: "AccountAbstractionService",
+      link: "/accountAbstractionService",
+      items: [
+        {
+          text: "TBD",
+          link: "/tbd",
+        },
+      ],
     },
   ],
   theme: {
