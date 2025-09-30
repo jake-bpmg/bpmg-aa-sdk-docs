@@ -9,9 +9,12 @@ import { HomePage } from "vocs/components";
   <HomePage.Tagline>
     EIP-4337 compatible typescript SDK <br /> for BPMG's Account Abstraction
   </HomePage.Tagline>
-  <HomePage.InstallPackage name="bpmg-aa-sdk" type="install" />
+  <HomePage.InstallPackage
+    name="bpmg-aa-sdk --registry http://0.0.0.0:4873/"
+    type="install"
+  />
   <HomePage.Description>
-    Cover smart wallet generation to bundler interaction through jsonrpc. <br />
+    Cover from smart wallet generation to bundler interaction through jsonrpc.
     Fully typed and tested.
   </HomePage.Description>
   <HomePage.Buttons>
