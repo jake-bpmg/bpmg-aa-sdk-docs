@@ -2,9 +2,15 @@
 
 > Typescript SDK for BPMG's Account Abstraction smart wallets and bundler integration.
 
+TBD - aas
+
+
+TBD - bs
+
+
 import { Callout } from "vocs/components";
 
-## Get started
+## Getting started
 
 Install the package.
 
@@ -118,4 +124,7 @@ const { preSmartAccount, saltAsString } = await aas.precomputeSmartWallet({
   userId: exampleValue.userId,
 });
 ```
+
+
+TBD - tbd
 

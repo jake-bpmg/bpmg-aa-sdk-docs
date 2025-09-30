@@ -4,6 +4,6 @@
 
 ## Docs
 
-- [Get started](/bpmg-aa-sdk-docs/getting-started): Install the package.
+- [Getting started](/bpmg-aa-sdk-docs/getting-started): Install the package.
 - [precomputeSmartWallet](/bpmg-aa-sdk-docs/precomputeSmartWallet): Call `BpmgAccountFactory` smart contract method to calculate smart wallet contract address with `create2`.
 The address is pre-deploy, which means no on-chain transaction.
