@@ -1,0 +1,36 @@
+# precomputeSmartWallet
+
+Call `BpmgAccountFactory` smart contract method to calculate smart wallet contract address with `create2`.
+The address is pre-deploy, which means no on-chain transaction.
+
+## Signature
+
+```ts
+async precomputeSmartWallet({ owner, userId }: { owner: AddressLike; userId: string })
+```
+
+### Parameters
+
+- owner: EOA.
+- userId: unqiue user id with `uuid`. based on postgres uuid
+
+### Returns
+
+- a hex string, which is calculated smart account address.
+- a string, which is an internally generated unique salt with `nanoid@3`
+
+## Example
+
+```ts
+const exampleSetup = {
+  userId: "939e9283-a510-461b-b3b0-70cd6fd1c054",
+  owner: "0xBf59115DB3b58cd8E6BAD8Ad05ED7bA81ee9735B",
+  preSmartAccount: "0xBC76069cd81cB6bDe0AA24E7c7562990F9d820dC",
+  salt: "aec352fae1",
+};
+
+const { preSmartAccount, saltAsString } = await aas.precomputeSmartWallet({
+  owner: exampleValue.owner,
+  userId: exampleValue.userId,
+});
+```

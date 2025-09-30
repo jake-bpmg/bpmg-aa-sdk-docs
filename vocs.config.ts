@@ -11,6 +11,10 @@ export default defineConfig({
       text: "Getting Started",
       link: "/getting-started",
     },
+    {
+      text: "precomputeSmartWallet",
+      link: "/precomputeSmartWallet",
+    },
   ],
   theme: {
     colorScheme: "dark",
