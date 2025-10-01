@@ -31,6 +31,16 @@ export default defineConfig({
         },
       ],
     },
+    {
+      text: "Framework Example",
+      link: "/framework-example",
+      items: [
+        {
+          text: "nestjs",
+          link: "/nestjs",
+        },
+      ],
+    },
   ],
   theme: {
     colorScheme: "dark",
